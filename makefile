@@ -1,7 +1,7 @@
 CC = gcc
 
 # opções de compilação (sem -lm aqui)
-CFLAGS = -fopenmp
+CFLAGS = -O3 -fopenmp
 
 # bibliotecas para link (colocadas ao final)
 LDLIBS = -lm

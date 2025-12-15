@@ -3,6 +3,9 @@
 # Criar pasta data caso não exista
 mkdir -p data
 
+#Deixar liberadade ao OpenMP de distribuir o trabalho das threads
+# export OMP_PROC_BIND=true
+# export OMP_PLACES=cores
 
 for exe in build/seq/*; do
     if [[ -x "$exe" && ! -d "$exe" ]]; then
@@ -23,4 +26,7 @@ for exe in build/omp/*; do
         "$exe" > "$output"
     fi
 done
+echo "Gerando gráficos" 
+python3 plot_tarefa_C.py > "graficos/desvio_padrão_tarefa_C.txt"
+python3 plot_tarefa_D.py > "graficos/desvio_padrão_tarefa_D.txt"
 

@@ -20,9 +20,10 @@ double stddev(double *v,int n){
 
 int main(){
     long Ns[] = {100000,500000,1000000, 10000000};
-    int nN = 4, reps = 5;
+    int nN = 4, reps = 10; //Estou fazendo 10 reps por ponto, pq ta variando mto os resultados e dps tiro a média.
+                           //Optei por testar tbm pra N=10000000, pra ver como se comporta com um N maior do que os testados (especialmente a variante SIMD)
 
-    printf("versao;N;mean;desvio_padrao\n");
+    printf("versao;N;media;desvio_padrao\n");
 
     for(int k=0;k<nN;k++){
         long N = Ns[k];

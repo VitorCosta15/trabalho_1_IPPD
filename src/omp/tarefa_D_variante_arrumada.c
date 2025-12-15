@@ -37,9 +37,9 @@ int main() {
             int T = thread_list[t_i];
             omp_set_num_threads(T);
 
-            double times[5];
+            double times[10];
 
-            for (int r = 0; r < 5; r++) {
+            for (int r = 0; r < 10; r++) { //Estou fazendo 10 reps por ponto, pq ta variando mto os resultados e dps tiro a média
 
                 double t1 = omp_get_wtime();
 
@@ -58,8 +58,8 @@ int main() {
                 times[r] = t2 - t1;
             }
 
-            double m = mean(times, 5);
-            double sd = desvio_padrao(times, 5, m);
+            double m = mean(times, 10);
+            double sd = desvio_padrao(times, 10, m);
 
             printf("%ld;%d;%.8f;%.8f\n", N, T, m, sd);
         }

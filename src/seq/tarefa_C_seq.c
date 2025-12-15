@@ -17,9 +17,9 @@ double stddev(double *v, int n){
 
 int main(){
     long Ns[] = {100000,500000,1000000, 10000000};
-    int nN = 4, reps = 5;
+    int nN = 4, reps = 10;
 
-    printf("versao;N;mean;desvio_padrao\n");
+    printf("versao;N;media;desvio_padrao\n");
 
     for(int k=0;k<nN;k++){
         long N = Ns[k];
