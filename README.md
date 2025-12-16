@@ -47,11 +47,13 @@ No diretório raiz do projeto, execute:
 ```bash
 make
 ```
+```bash
+./build/omp/tarefa_C_parallel_simd
+./build/omp/tarefa_C_simd
+```
+Válido para todos os códigos objeto em build
 
-Isso irá gerar a biblioteca compartilhada necessária para que o Python consiga chamar as funções em C.
-
-Os resultados dos códigos C são impressos no terminal. Para facilitar, copiamos estas saídas e colamos em arquivos csv para serem gerados os gráficos a partir dos códigos Python.
-O caminho dos arquivos csv são passados diretamente através de variáveis String dentro dos arquivos Python.
+>Os resultados dos códigos C são impressos no terminal. Para facilitar, copiamos estas saídas e colamos em arquivos csv para serem gerados os gráficos a partir dos códigos Python. O caminho dos arquivos csv são passados diretamente através de variáveis String dentro dos arquivos Python.
 ---
 
 ### 2. Executar o código em Python
