@@ -3,9 +3,9 @@
 ## Versões utilizadas
 
 - **Linguagem C**: **gcc (GCC) 15.2.0**
-- **Python**: **Python 3.10+**
+- **Python**: **Python 3.11+**
 
-> Recomenda-se o uso de gcc para compilação em C e Python 3.8 ou superior para evitar problemas de compatibilidade.
+> Recomenda-se o uso de gcc para compilação em C e Python 3.11 ou superior para evitar problemas de compatibilidade.
 
 ---
 
@@ -32,10 +32,10 @@ Leitura dos csvs e geração dos gráficos.
 ### Arquivos csv
 Localizados no diretório `data/`. Estes arquivos são criados de forma manual através dos resultados obtidos na saída dos códigos `C`.
 
-`tarefa_C_parallel_simd.csv`
-`tarefa_C_seq.csv`
-`tarefa_D_variante_arrumada.csv`
-`tarefa_D_variante_ingenua.csv`
+**tarefa_C_parallel_simd.csv**
+**tarefa_C_seq.csv**
+**tarefa_D_variante_arrumada.csv**
+**tarefa_D_variante_ingenua.csv**
 ---
 
 ## Como compilar e executar
@@ -65,7 +65,7 @@ python3 plot_tarefa_D.py
 ## Dependências
 
 - gcc 15.2.0
-- Python 3.10+
+- Python 3.11+
 - Bibliotecas padrão da linguagem C
 - Bibliotecas padrão do Python (`matplotlib`, `pandas`.)
 
