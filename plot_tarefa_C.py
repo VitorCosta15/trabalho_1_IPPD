@@ -51,7 +51,7 @@ for N in sorted(df_par['N'].unique()):
         label='PAR-SIMD'
     )
 
-    # Pontos SEQ e SIMD to colocando sobre thread=1 pq n exploram paralelismmo em thread 
+    # Pontos SEQ e SIMD to colocando sobre thread=1 pq não exploram paralelismmo em thread 
     plt.scatter(
         [1], [mean_seq],
         marker='s',

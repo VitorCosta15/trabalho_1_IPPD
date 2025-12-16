@@ -1,12 +1,12 @@
 N = 100000
-  Média do desvio padrão (Ingênua):   1.512740e-04
-  Média do desvio padrão (Arrumada):  1.375600e-04
+  Média do desvio padrão (Ingênua):   2.514500e-04
+  Média do desvio padrão (Arrumada):  2.086540e-04
 --------------------------------------------------
 N = 500000
-  Média do desvio padrão (Ingênua):   3.260420e-04
-  Média do desvio padrão (Arrumada):  4.103460e-04
+  Média do desvio padrão (Ingênua):   2.531760e-04
+  Média do desvio padrão (Arrumada):  2.394320e-04
 --------------------------------------------------
 N = 1000000
-  Média do desvio padrão (Ingênua):   5.067900e-04
-  Média do desvio padrão (Arrumada):  2.252320e-04
+  Média do desvio padrão (Ingênua):   4.278440e-04
+  Média do desvio padrão (Arrumada):  2.839760e-04
 --------------------------------------------------

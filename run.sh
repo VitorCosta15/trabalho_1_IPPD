@@ -4,8 +4,10 @@
 mkdir -p data
 
 #Deixar liberadade ao OpenMP de distribuir o trabalho das threads
-# export OMP_PROC_BIND=true
-# export OMP_PLACES=cores
+export OMP_PROC_BIND=true
+export OMP_PLACES=cores
+make 
+
 
 for exe in build/seq/*; do
     if [[ -x "$exe" && ! -d "$exe" ]]; then

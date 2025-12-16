@@ -1,17 +1,17 @@
 SEQ vs SIMD
-  Média desvio padrão SEQ : 1.962975e-04
+  Média desvio padrão SEQ : 2.336325e-04
 --------------------------------------------------
-  Média desvio padrão SIMD: 1.837875e-04
+  Média desvio padrão SIMD: 1.288375e-04
 --------------------------------------------------
 N = 100000
-  Média desvio padrão PAR-SIMD: 3.898600e-04
+  Média desvio padrão PAR-SIMD: 1.447440e-04
 --------------------------------------------------
 N = 500000
-  Média desvio padrão PAR-SIMD: 2.921920e-04
+  Média desvio padrão PAR-SIMD: 1.600280e-04
 --------------------------------------------------
 N = 1000000
-  Média desvio padrão PAR-SIMD: 3.523880e-04
+  Média desvio padrão PAR-SIMD: 2.106240e-04
 --------------------------------------------------
 N = 10000000
-  Média desvio padrão PAR-SIMD: 2.427040e-04
+  Média desvio padrão PAR-SIMD: 3.079020e-04
 --------------------------------------------------
